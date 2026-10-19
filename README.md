@@ -33,6 +33,8 @@ a hand-curated repository of production-ready prompts designed for bloggers, con
 
 > **Prompt:**
 > "Extract the 3 most impactful takeaways from this article text and format them into a single high-curiosity social post suitable for Twitter/X or LinkedIn: **[Insert Text]**"
+> ---
+*note: updated weekly with tested prompts from actual blogging workflows.*
 
 ---
 
