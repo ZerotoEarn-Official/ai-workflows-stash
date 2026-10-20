@@ -35,6 +35,18 @@ a hand-curated repository of production-ready prompts designed for bloggers, con
 > "Extract the 3 most impactful takeaways from this article text and format them into a single high-curiosity social post suitable for Twitter/X or LinkedIn: **[Insert Text]**"
 > ---
 *note: updated weekly with tested prompts from actual blogging workflows.*
+## Search Grounding & Deterministic Output Guardrails
+
+Workflows designed for search grounding, RAG evaluation, and multi-LLM (ChatGPT, Claude, Gemini) boundary enforcement.
+
+### Strict Execution Constraints
+* **Structural Hard-Stop:** Mandate `##` and `###` headers. Force direct execution without introductory fluff.
+* **Lexicon Filter:** Strictly ban overused LLM evaluation noise (*delve, tapestry, realm, testament, key takeaways*).
+* **Deterministic Output Schema:**
+  ```text
+  [Role]: Senior AI Search & Grounding Evaluator
+  [Constraint 1]: Zero intro/outro conversational text
+  [Constraint 2]: Strict markdown tree output only
 
 ---
 
